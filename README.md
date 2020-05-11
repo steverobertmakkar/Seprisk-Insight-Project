@@ -12,3 +12,6 @@
  The notebooks outline the pre-processing steps for importing the data, merging, cleaning and preparing the data to perform a time-to-event analyses. I analysed the data using Cox proportional hazards model, the accelerated failure-time model, Cox regression with time varying covariates, and gradient boosting Cox regression. I evaluate the models using Harrell's C concordance statistics and cumulative dependent area under the curve. 
  
  The gradient boosted Cox model showed the best overall discrimination capacity and competes with the best available published model: https://www.ncbi.nlm.nih.gov/pubmed/29286945
+
+The accompanying app for this model can be located here: http://sepsisapp.herokuapp.com/surv
+The app shows the changing risk of sepsis over time, and how this changing risk is moderated by vital sign values, demographics, and comorbidities (Charlson Comorbidity score). 
